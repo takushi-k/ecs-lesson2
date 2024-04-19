@@ -31,5 +31,9 @@ app.get('/api', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+    res.send("okdayo");
+});
+
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
