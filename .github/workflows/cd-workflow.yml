@@ -9,8 +9,8 @@ on: [push]
 
 env:
   AWS_REGION: ap-northeast-1
-  ECS_WEBAPP_SERVICE: ecs-sample-webapp3
-  ECS_RESTAPI_SERVICE: ecs-sample-restapi2
+  ECS_WEBAPP_SERVICE: sample-webapp3
+  ECS_RESTAPI_SERVICE: sample-restapi2
   WEBAPP_CONTAINER_NAME: ecs-sample-webapp
   BACKEND_CONTAINER_NAME: ecs-sample-backend
   RESTAPI_CONTAINER_NAME: ecs-sample-restapi
