@@ -14,7 +14,7 @@ env:
   WEBAPP_CONTAINER_NAME: ecs-sample-webapp
   BACKEND_CONTAINER_NAME: ecs-sample-backend
   RESTAPI_CONTAINER_NAME: ecs-sample-restapi
-  WEBAPP_TAG: 1.0.0
+  WEBAPP_TAG: 1.0.1
   BACKEND_TAG: 1.0.0
   RESTAPI_TAG: 1.0.0
   SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
